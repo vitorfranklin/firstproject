@@ -8,6 +8,11 @@
 
 # See https://help.github.com/articles/about-codeowners/
 
-*             ["a","b","c","d","e","b","b","ramon"]
+*     for_each = toset({teams_owners_slug})
+        name = each.key
+
+               
+              
+
 /.github/*    codeowner-reviewers
 /tools/*      all-admins
