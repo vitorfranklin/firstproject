@@ -1,1 +1,15 @@
+# This file defines who should review and approve changes in  this repo.
 
+# Code owners are automatically requested for review when someone opens a pull request that modifies code that they own.
+
+# Notes :
+# - Order is very important !!! 
+# - The last priority matching pattern.
+
+# See https://help.github.com/articles/about-codeowners/
+  
+*             @tag-trade-repository/all-members
+*             @tag-trade-repository/settlement-tribe
+*             @tag-trade-repository/database-tribe
+/.github/*    @tag-trade-repository/codeowner-reviewers
+/tools/*      @tag-trade-repository/all-admins
